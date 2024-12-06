@@ -1,0 +1,19 @@
+<div class="ml-5">
+  <form class="max-w-md mt-10" [formGroup]="form" (ngSubmit)="setMonthlyBudget()">
+    <input formControlName="userId" [value]="id" class="hidden" required/>
+    <div class="mb-5">
+      <label for="amount" class="block mb-2 text-sm font-medium text-gray-900 ">Amount</label>
+      <input type="number" formControlName="amount" name="amount" id="amount" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" required />
+    </div>
+    <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add Budget</button>
+  </form>
+</div>
+
+<div class="ml-8 mt-8">
+  <h1 class="text-3xl font-semibold">Budget Progress</h1>
+  <div class="mt-8 ml-4 text-xl text-rose-700">
+    <p class="mt-4">Total Expenses: <span class="text-black">{{ totalExpenses }} </span></p>
+    <p class="mt-4">Remaining Budget: <span class="text-black">{{ remainingBudget }} </span></p>
+    <p class="mt-4">Progress bar: <progress class="w-full h-4 rounded-lg bg-gray-200 ml-4"  max="{{ monthlyBudget }}" value="{{ totalExpenses }}"></progress></p>
+  </div>
+</div>

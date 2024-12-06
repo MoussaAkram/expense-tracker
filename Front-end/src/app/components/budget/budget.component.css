@@ -1,0 +1,15 @@
+progress {
+  @apply appearance-none w-1/2 h-4 rounded-lg bg-gray-200;
+}
+
+progress::-webkit-progress-bar {
+  @apply bg-gray-300 rounded-lg;
+}
+
+progress::-webkit-progress-value {
+  @apply bg-blue-500 rounded-lg;
+}
+
+progress::-moz-progress-bar {
+  @apply bg-blue-500 rounded-lg;
+}

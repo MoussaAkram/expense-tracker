@@ -1,0 +1,22 @@
+<div class="ml-5">
+  <form class="max-w-md mt-10" [formGroup]="form" (ngSubmit)="addExpense()">
+    <input formControlName="userId" [value]="id" class="hidden" required/>
+    <div class="mb-5">
+      <label for="description" class="block mb-2 text-sm font-medium text-gray-900 ">Expense description</label>
+      <input formControlName="description" name="description" id="description" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" required />
+    </div>
+    <div class="mb-5">
+      <label for="amount" class="block mb-2 text-sm font-medium text-gray-900 ">Amount</label>
+      <input type="number" formControlName="amount" name="amount" id="amount" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" required />
+    </div>
+    <div class="mb-5">
+      <label for="category" class="block mb-2 text-sm font-medium text-gray-900 ">Select your category</label>
+      <select formControlName="category" id="category" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+        <option value="Food">Food</option>
+        <option value="Transport">Transport</option>
+        <option value="Entertainment">Entertainment</option>
+      </select>
+    </div>
+    <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add Expense</button>
+  </form>
+</div>

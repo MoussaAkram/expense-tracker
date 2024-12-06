@@ -1,0 +1,46 @@
+<div class="ml-8 mt-8">
+  <h3 class="text-3xl font-semibold">Expenses</h3>
+
+<table class="w-11/12 mt-8 ml-4 text-sm text-left text-gray-500 max-[600px]:w-[769px]">
+  <thead class="text-xs text-gray-700 uppercase bg-green-300">
+  <tr>
+    <th scope="col" class="px-6 py-3">
+      Category
+    </th>
+    <th scope="col" class="px-6 py-3">
+      Amount
+    </th>
+    <th scope="col" class="px-6 py-3">
+      description
+    </th>
+    <th scope="col" class="px-6 py-3">
+
+    </th>
+
+  </tr>
+  </thead>
+  <tbody *ngFor="let expense of expenses?.slice((p-1)*pageSize, p*pageSize)" >
+  <tr class="bg-white border-b">
+    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">
+      {{expense.category}}
+    </th>
+    <td class="px-6 py-4">
+      {{expense.amount}}
+    </td>
+    <td class="px-6 py-4">
+      {{expense.description}}
+    </td>
+    <td class="px-6 py-4">
+      <button (click)="deleteExpense(expense.id)"  class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center ">Delete</button>
+    </td>
+  </tr>
+  </tbody>
+
+</table>
+<div class="mt-4 flex justify-center text-black mb-10">
+  <button class="px-4 py-2 border " (click)="previousPage()">Previous</button>
+  <span class="px-4 py-2 ">{{ p }}</span>
+  <button class="px-4 py-2 border" (click)="nextPage()">Next</button>
+</div>
+
+</div>
