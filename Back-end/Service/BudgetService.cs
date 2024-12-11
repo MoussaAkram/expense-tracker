@@ -43,19 +43,6 @@ namespace Back_end.Service
             return remainingBudget < 0;  // If remaining budget is negative, notify the user
         }
 
-        public async Task<List<ExpenseChartRequest>> GetExpenseChartAsync(int userId)
-        {
-            return await _context.Expenses
-                .Where(e => e.UserId == userId)
-                .GroupBy(e => e.Category)
-                .Select(g => new ExpenseChartRequest
-                {
-                    Category = g.Key,
-                    TotalAmount = g.Sum(e => e.Amount)
-                })
-                .ToListAsync();
-        }
-
         public async Task<Budget> SetBudgetAsync(int userId, Budget budget)
         {
             // Find and delete any existing budget for the user

@@ -55,8 +55,15 @@ namespace Back_end.Service
 
         public async Task<List<ExpenseChartRequest>> GetExpenseChartAsync(int userId)
         {
-            var budgetService = new BudgetService(_context);
-            return await budgetService.GetExpenseChartAsync(userId);
+            return await _context.Expenses
+                .Where(e => e.UserId == userId)
+                .GroupBy(e => e.Category)
+                .Select(g => new ExpenseChartRequest
+                {
+                    Category = g.Key,
+                    TotalAmount = g.Sum(e => e.Amount)
+                })
+               .ToListAsync();
         }
 
         public async Task<bool> DeleteExpenseAsync(int id)

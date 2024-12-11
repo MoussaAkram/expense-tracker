@@ -121,3 +121,4 @@ E:\old_folder\self-lea\DW\Tracker\Back-end\bin\Debug\net8.0\tr\Microsoft.CodeAna
 E:\old_folder\self-lea\DW\Tracker\Back-end\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 E:\old_folder\self-lea\DW\Tracker\Back-end\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 E:\old_folder\self-lea\DW\Tracker\Back-end\bin\Debug\net8.0\BCrypt.Net-Next.dll
+E:\old_folder\self-lea\DW\Tracker\Back-end\obj\Debug\net8.0\Back-end.sourcelink.json
