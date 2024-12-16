@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "E:\\old_folder\\self-lea\\DW\\Tracker\\Back-end\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7DF42635-D951-413E-82F7-7995CE75B1D7}|Back-end.csproj|e:\\old_folder\\self-lea\\dw\\tracker\\back-end\\service\\expenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF42635-D951-413E-82F7-7995CE75B1D7}|Back-end.csproj|solutionrelative:service\\expenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF42635-D951-413E-82F7-7995CE75B1D7}|Back-end.csproj|e:\\old_folder\\self-lea\\dw\\tracker\\back-end\\service\\budgetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF42635-D951-413E-82F7-7995CE75B1D7}|Back-end.csproj|solutionrelative:service\\budgetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7DF42635-D951-413E-82F7-7995CE75B1D7}|Back-end.csproj|e:\\old_folder\\self-lea\\dw\\tracker\\back-end\\controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DF42635-D951-413E-82F7-7995CE75B1D7}|Back-end.csproj|solutionrelative:controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,14 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7DF42635-D951-413E-82F7-7995CE75B1D7}|Back-end.csproj|e:\\old_folder\\self-lea\\dw\\tracker\\back-end\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DF42635-D951-413E-82F7-7995CE75B1D7}|Back-end.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DF42635-D951-413E-82F7-7995CE75B1D7}|Back-end.csproj|e:\\old_folder\\self-lea\\dw\\tracker\\back-end\\service\\budgetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DF42635-D951-413E-82F7-7995CE75B1D7}|Back-end.csproj|solutionrelative:service\\budgetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DF42635-D951-413E-82F7-7995CE75B1D7}|Back-end.csproj|e:\\old_folder\\self-lea\\dw\\tracker\\back-end\\service\\expenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DF42635-D951-413E-82F7-7995CE75B1D7}|Back-end.csproj|solutionrelative:service\\expenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7DF42635-D951-413E-82F7-7995CE75B1D7}|Back-end.csproj|e:\\old_folder\\self-lea\\dw\\tracker\\back-end\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,35 +106,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "BudgetService.cs",
               "DocumentMoniker": "E:\\old_folder\\self-lea\\DW\\Tracker\\Back-end\\Service\\BudgetService.cs",
               "RelativeDocumentMoniker": "Service\\BudgetService.cs",
               "ToolTip": "E:\\old_folder\\self-lea\\DW\\Tracker\\Back-end\\Service\\BudgetService.cs",
               "RelativeToolTip": "Service\\BudgetService.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAuwEMAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T21:21:35.306Z"
+              "WhenOpened": "2024-12-04T21:21:35.306Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "ExpenseService.cs",
               "DocumentMoniker": "E:\\old_folder\\self-lea\\DW\\Tracker\\Back-end\\Service\\ExpenseService.cs",
               "RelativeDocumentMoniker": "Service\\ExpenseService.cs",
               "ToolTip": "E:\\old_folder\\self-lea\\DW\\Tracker\\Back-end\\Service\\ExpenseService.cs",
               "RelativeToolTip": "Service\\ExpenseService.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAIwEEAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAnwDMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T21:10:02.782Z"
+              "WhenOpened": "2024-12-04T21:10:02.782Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\old_folder\\self-lea\\DW\\Tracker\\Back-end\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -142,12 +144,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-04T16:22:54.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T16:22:54.645Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "AuthController.cs",
               "DocumentMoniker": "E:\\old_folder\\self-lea\\DW\\Tracker\\Back-end\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -159,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "BudgetController.cs",
               "DocumentMoniker": "E:\\old_folder\\self-lea\\DW\\Tracker\\Back-end\\Controllers\\BudgetController.cs",
               "RelativeDocumentMoniker": "Controllers\\BudgetController.cs",
@@ -171,20 +172,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ExpenseController.cs",
               "DocumentMoniker": "E:\\old_folder\\self-lea\\DW\\Tracker\\Back-end\\Controllers\\ExpenseController.cs",
               "RelativeDocumentMoniker": "Controllers\\ExpenseController.cs",
               "ToolTip": "E:\\old_folder\\self-lea\\DW\\Tracker\\Back-end\\Controllers\\ExpenseController.cs",
               "RelativeToolTip": "Controllers\\ExpenseController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T20:36:02.162Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\old_folder\\self-lea\\DW\\Tracker\\Back-end\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -192,8 +193,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAFcAAAAAAAAAAAAAAF4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T20:21:43.234Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T20:21:43.234Z"
             },
             {
               "$type": "Document",
